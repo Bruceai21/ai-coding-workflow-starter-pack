@@ -23,6 +23,7 @@ examples/
   home-lab-dashboard/AGENTS.md
 
 guides/
+  README.md
   how-to-use-agents-md.md
   how-to-write-cursor-rules.md
   ai-code-review-workflow.md
@@ -50,10 +51,21 @@ cp templates/AGENTS.md /path/to/your-project/AGENTS.md
 
 For most projects, start with these four files:
 
-- `AGENTS.md` - project rules and verification commands for coding agents
-- `cursor-rules.md` - editor-level AI behavior rules
-- `code-review-checklist.md` - second-pass review before merging or publishing
-- `deployment-checklist.md` - pre-launch checks before users see the app
+- `templates/AGENTS.md` - project rules and verification commands for coding agents
+- `templates/cursor-rules.md` - editor-level AI behavior rules
+- `templates/code-review-checklist.md` - second-pass review before merging or publishing
+- `templates/deployment-checklist.md` - pre-launch checks before users see the app
+
+## Guides
+
+Start here if you want the "why" and workflow behind the templates:
+
+- [How to use AGENTS.md](guides/how-to-use-agents-md.md)
+- [How to write Cursor rules](guides/how-to-write-cursor-rules.md)
+- [AI code review workflow](guides/ai-code-review-workflow.md)
+- [Vibe coding launch audit](guides/vibe-coding-launch-audit.md)
+
+Or browse the [guides index](guides/README.md).
 
 ## What this is not
 
